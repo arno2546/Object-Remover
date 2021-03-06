@@ -43,6 +43,8 @@ for i in range(w):
 
 # Merge just the R channel as all channels
 mask = Image.merge('RGB', (R, R, R))
+mask = mask.save("mask.jpg")
+mask = cv2.imread("mask.jpg")
 output = cv2.inpaint(image, mask, args["radius"], flags=flags)
 # show the original input image, mask, and output image after
 # applying inpainting
