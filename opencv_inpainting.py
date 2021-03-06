@@ -45,6 +45,7 @@ for i in range(w):
 mask = Image.merge('RGB', (R, R, R))
 mask = mask.save("mask.jpg")
 mask = cv2.imread("mask.jpg")
+mask = cv2.cvtColor(mask, cv2.COLOR_BGR2GRAY)
 output = cv2.inpaint(image, mask, args["radius"], flags=flags)
 # show the original input image, mask, and output image after
 # applying inpainting
