@@ -1,0 +1,1 @@
+python opencv_inpainting.py --image examples/example02.jpg --mask examples/mask02.jpg --method ns
