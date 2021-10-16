@@ -1,4 +1,9 @@
 # Object Remover
+<p>
+        This project is part of a publication that was accepted in CONIT2021 and Later apporched by Asian Journal for Convergence Technology for publication . 
+        The following links will redicrect to the publications and the presentation slides to better understand the work.
+        https://www.researchgate.net/publication/352730450_Presentation_for_CONIT_2021-Data_augmentation_technique_to_expand_road_dataset_Using_Mask_RCNN_and_image_inpainting
+        </p>
 
 ## Getting Started
 ### Reuirements
