@@ -1,0 +1,16 @@
+import cv2
+import numpy as np
+
+image1 = cv2.imread("res/bat_one.jpg")
+image1 = cv2.resize(image1, (300, 300)) # had to resize so that it could be later subsatracted!
+image2 = cv2.imread("res/bat_two.jpg")
+image2 = cv2.resize(image2, (300, 300))
+
+diff = cv2.subtract(image2, image1)
+result = not np.any(diff) # if image is not the same then result will be false
+
+if result is True:
+    print("images are the same")
+else:
+    cv2.imshow("result.jpg", diff) # images are different. This saves a new resultant image
+    cv2.waitKey(0)
