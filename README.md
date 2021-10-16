@@ -4,8 +4,8 @@
 </p>
 
 * [Presentation Slide](https://www.researchgate.net/publication/352730450_Presentation_for_CONIT_2021Data_augmentation_technique_to_expand_road_dataset_Using_Mask_RCNN_and_image_inpainting)   
-* [Conference paper link](https://ieeexplore.ieee.org/document/9498505) 
-* [Journal Link](https://www.asianssr.org/index.php/ajct/article/view/1143)
+* [Conference paper link(IEEE)](https://ieeexplore.ieee.org/document/9498505) 
+* [AJCT Journal Link](https://www.asianssr.org/index.php/ajct/article/view/1143)
 
 ## Getting Started
 ### Reuirements
