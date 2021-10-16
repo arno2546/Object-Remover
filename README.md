@@ -1,8 +1,6 @@
 # Object Remover
 <p>
-        This project is part of a publication that was accepted in CONIT2021 and Later apporched by Asian Journal for Convergence Technology for publication . 
-        The following links will redicrect to the publications and the presentation slides to better understand the work.
-       
+        The goal of this project is to eliminate the cars from the image. The project is divided into two parts. The first one is MASK RCNN which helps to deetct the car and te image inpainting eliminates the detected car object from the image .This project is part of a publication that was accepted in CONIT2021 and Later apporched by Asian Journal for Convergence Technology for publication.The following links will redicrect to the publications and the presentation slides to better understand the work.     
 </p>
 
 * [Presentation Slide](https://www.researchgate.net/publication/352730450_Presentation_for_CONIT_2021Data_augmentation_technique_to_expand_road_dataset_Using_Mask_RCNN_and_image_inpainting)   
